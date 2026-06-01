@@ -60,6 +60,8 @@ datasets/
 *.png
 !docs/**/*.png
 !docs/**/*.jpg
+# Demo assets must stay tracked despite the media ignores above
+!assets/**
 
 # YOLO / training outputs
 runs/
